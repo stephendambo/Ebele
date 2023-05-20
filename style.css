@@ -1,4 +1,13 @@
  
+ *{
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+ }
+
+ body{
+  font-family: 'Poppins', sans-serif;
+ }
  /* Header Start Here */
  
  #header {
@@ -51,12 +60,12 @@
   }
 
   /* Global variable */
-  h2{
+  /* h1{ */
     font-size: 50px;
     line-height: 5px;
     color: #000000;
   }
-  h3{
+  /* p{ */
     font-size: 46px;
     line-height: 5px;
     color: #000000;
@@ -78,11 +87,11 @@
   align-items: flex-start;
   justify-content: center;
 }
-#B_E h2{
-  color: #000000
+#B_E h1{
+  /* color: #000000 */
 }
-#B_E h3{
-  padding-top: 2px;
+#B_E p{
+  /* padding-top: 2px; */
 }
 #B_E button{
   background-image: url("img/button.png");
@@ -96,7 +105,7 @@
   cursor: pointer;
 }
 
-#features{
+#Timepiece{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -104,52 +113,52 @@
 }
 
 
-#features .fe-box{
+#Timepiece .tp-box{
     width: 180px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.03);
-    border: 1px solid #000000;
+    border: -4px solid #d2b48c;
     border-radius: 4px;
     margin: 15px 0;
   }
   
-  #features .fe-box:hover{
+  #Timepiece .tp-box:hover{
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
     }
   
-    #features .fe-box img{
+    #Timepiece .tp-box img{
         width: 100%;
         margin-bottom: 5px;
       }
   
-      #features .fe-box h6{
+      #Timepiece .tp-box h6{
         display: inline-block;
-        padding: 9px 8px 6px 8px;
+        padding: 4px 4px 2px 2px;
         line-height: 1;
         border-radius: 4px;
         color: #000000;
-        background-color: #fddde4;
+        background-color: white;
       }
   
-      #features .fe-box:nth-child(2) h6{
-        background-color: #fddde4;
+      #Timepiece .tp-box:nth-child(2) h6{
+        background-color: white;
       }
       
-      #features .fe-box:nth-child(3) h6{
-        background-color: #fddde4;
+      #Timepiece .tp-box:nth-child(3) h6{
+        background-color: white;
       }
       
-      #features .fe-box:nth-child(4) h6{
-        background-color: #fddde4;
+      #Timepiece .tp-box:nth-child(4) h6{
+        background-color: white;
       }
       
-      #features .fe-box:nth-child(5) h6{
-        background-color: #fddde4;
+      #Timepiece .tp-box:nth-child(5) h6{
+        background-color: white;
       }
       
-      #features .fe-box:nth-child(6) h6{
-        background-color: #fddde4;
+      #Timepiece .tp-box:nth-child(6) h6{
+        background-color: white;
       }
   
   
