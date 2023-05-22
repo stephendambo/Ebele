@@ -1,10 +1,4 @@
  
- *{
-  /* margin: 0; */
-  /* padding: 0; */
-  /* box-sizing: border-box; */
- }
-
  body{
   font-family: 'Poppins', sans-serif;
  }
@@ -58,18 +52,7 @@
     bottom: -4px;
     left: 20px;
   }
-
-  /* Global variable */
-  /* h1{ */
-    font-size: 50px;
-    line-height: 5px;
-    color: #000000;
-  }
-  /* p{ */
-    font-size: 46px;
-    line-height: 5px;
-    color: #000000;
-  }
+  
   .section-pl{
     padding: 40px 80px;
   }
@@ -88,21 +71,34 @@
   justify-content: center;
 }
 #B_E h1{
-  /* color: #000000 */
+  font-size: 40px;
+  line-height: 60px;
+  margin: 25px 0;
 }
 #B_E p{
-  /* padding-top: 2px; */
+  font-size: 17px;
+    color: #000000;
+    margin: 15px 0 20px 0;
 }
 #B_E button{
   background-image: url("img/button.png");
   background-color: transparent;
-  color: #000000;
+  color: #000000
+  transition-duration: 500ms;
+  transition-property: all;
   border: 0;
   padding: 14px 88px 14px 65px;
   background-repeat: no-repeat;
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
+}
+
+#B_E button:hover{
+  background: #d2b48c;
+  transform: rotate(5deg);
+  transition-timing-function: ease-in;
+  
 }
 
 #Timepiece{
