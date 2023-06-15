@@ -45,7 +45,7 @@
   #navbar li a.active::after,
   #navbar li a:hover::after{
     content: "";
-    width: 30px;
+    width: 15px;
     height: 2px;
     background: #000000;
     position: absolute;
@@ -100,62 +100,40 @@
   transition-timing-function: ease-in;
   
 }
-
-#Timepiece{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-#Timepiece .tp-box{
-    width: 180px;
-    text-align: center;
-    padding: 25px 15px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.03);
-    border: -4px solid #d2b48c;
-    border-radius: 4px;
-    margin: 15px 0;
-  }
-  
-  #Timepiece .tp-box:hover{
-      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
-    }
-  
-    #Timepiece .tp-box img{
-        width: 100%;
-        margin-bottom: 5px;
-      }
-  
-      #Timepiece .tp-box h6{
-        display: inline-block;
-        padding: 4px 4px 2px 2px;
-        line-height: 1;
+      #Check Out .co-box{ */
+        width: 180px;
+        text-align: center;
+        padding: 25px 15px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.03);
+        border: -4px solid #d2b48c;
         border-radius: 4px;
-        color: #000000;
-        background-color: white;
-      }
-  
-      #Timepiece .tp-box:nth-child(2) h6{
-        background-color: white;
+        margin: 15px 0;
       }
       
-      #Timepiece .tp-box:nth-child(3) h6{
-        background-color: white;
-      }
+      #Check Out .co-box:hover{
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
+        }
       
-      #Timepiece .tp-box:nth-child(4) h6{
-        background-color: white;
-      }
+        #Check Out .co-box img{
+            width: 100%;
+            margin-bottom: 5px;
+          }
       
-      #Timepiece .tp-box:nth-child(5) h6{
-        background-color: white;
-      }
+          #Check Out .co-box h6{
+            display: inline-block;
+            padding: 4px 4px 2px 2px;
+            line-height: 1;
+            border-radius: 4px;
+            color: #000000;
+            background-color: white;
+          }
       
-      #Timepiece .tp-box:nth-child(6) h6{
-        background-color: white;
-      }
-  
+          #Check Out .co-box:nth-child(2) h6{
+            background-color: white;
+          }
+          
+          #Check Out .co-box:nth-child(3) h6{
+            background-color: white;
+          }
   
   
